@@ -27,7 +27,6 @@ func TestSum(t *testing.T) {
 
 func TestSolution1(t *testing.T) {
 	multiples := MultiplesOf(1000, 3, 5)
-	log.Printf("Multiples: %v", multiples)
 	solution := Sum(multiples...)
 
 	log.Printf("Solution 1: %v", solution)
