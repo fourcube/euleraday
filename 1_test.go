@@ -4,6 +4,8 @@ import (
 	"log"
 	"reflect"
 	"testing"
+
+	. "github.com/fourcube/euleraday/lib"
 )
 
 func TestMultiplesOf(t *testing.T) {
