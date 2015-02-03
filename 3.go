@@ -14,9 +14,12 @@ What is the largest prime factor of the number 600851475143?
 */
 
 // Those are used for faster factorization of large prime numbers
-var precalculatedPrimes = buildPrimes(350)
+var precalculatedPrimes []int
 
 func Factorize(n int) (result []int) {
+	if len(precalculatedPrimes) == 0 {
+		precalculatedPrimes = buildPrimes(350)
+	}
 	// Only take factors into account that are smaller than sqrt(n)
 	i := int(math.Sqrt(float64(n)))
 
