@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/fourcube/euleraday/lib"
+	. "github.com/fourcube/euleraday/go/lib"
 )
 
 func IsPalindrome(n int) bool {

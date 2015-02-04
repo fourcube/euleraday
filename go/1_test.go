@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/fourcube/euleraday/lib"
+	. "github.com/fourcube/euleraday/go/lib"
 )
 
 func TestMultiplesOf(t *testing.T) {
